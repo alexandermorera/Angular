@@ -1,0 +1,5 @@
+
+<div class="contact" *ngFor="let contact of list">
+    <img [src]="contact.photo" [title]="contact.lastMessage">
+    {{ contact.name }}
+</div>

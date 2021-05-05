@@ -1,1 +1,6 @@
-<p>send works!</p>
+<form>
+ <input name="mensaje" [formControl]="mensaje" (keypress)="sendEnter($event)">
+<button type="button" (click)="send()">Enviar</button>
+</form>
+
+

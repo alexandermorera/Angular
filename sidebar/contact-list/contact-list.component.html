@@ -1,0 +1,5 @@
+
+<div class="contact" *ngFor="let contact of list" (click)="showChats(contact)">
+    <img [src]="'https://ui-avatars.com/api/?background=random&size=200&bold=true&uppercase=true&name=' + contact.name" [title]="contact.lastMessage">
+    {{ contact.name }}
+</div>

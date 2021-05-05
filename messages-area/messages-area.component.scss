@@ -1,0 +1,17 @@
+:host {
+    display: block;
+    overflow-anchor: auto;
+    height: calc(100% - 100px);
+    align-items: center;
+    padding: 8px 50px;
+    background-color:rgb(212, 228, 202);
+    border-style: solid;
+    .mensaje{
+        display: flex;
+        align-items: center;
+        margin-right: 16px;
+        padding: 4px;
+        border-radius: 50%;
+    }
+   
+}
